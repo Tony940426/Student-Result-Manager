@@ -1,0 +1,14 @@
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\bin\Debug\net8.0\Student Result Manager.exe
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\bin\Debug\net8.0\Student Result Manager.deps.json
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\bin\Debug\net8.0\Student Result Manager.runtimeconfig.json
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\bin\Debug\net8.0\Student Result Manager.dll
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\bin\Debug\net8.0\Student Result Manager.pdb
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.AssemblyInfoInputs.cache
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.AssemblyInfo.cs
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.csproj.CoreCompileInputs.cache
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.dll
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\refint\Student Result Manager.dll
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.pdb
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\Student Result Manager.genruntimeconfig.cache
+C:\Users\food9\Coding Projects\New Coding Projects Tut\Lesson One\Project One\Student Result Manager\Student Result Manager\obj\Debug\net8.0\ref\Student Result Manager.dll
