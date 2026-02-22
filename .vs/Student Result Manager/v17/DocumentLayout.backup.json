@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson One\\Project One\\Student Result Manager\\",
+  "WorkspaceRootPath": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|c:\\users\\food9\\coding projects\\new coding projects tut\\lesson one\\project one\\student result manager\\student result manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|c:\\users\\food9\\coding projects\\new coding projects tut\\lesson two\\task one\\student result manager\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|solutionrelative:student result manager\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|c:\\users\\food9\\coding projects\\new coding projects tut\\lesson two\\task one\\student result manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|solutionrelative:student result manager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|c:\\users\\food9\\coding projects\\new coding projects tut\\lesson one\\project one\\student result manager\\student result manager\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|solutionrelative:student result manager\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|c:\\users\\food9\\coding projects\\new coding projects tut\\lesson two\\task one\\student result manager\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|solutionrelative:student result manager\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|c:\\users\\food9\\coding projects\\new coding projects tut\\lesson two\\task one\\student result manager\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B909EB31-410A-42DA-8953-E32837FC4098}|Student Result Manager\\Student Result Manager.csproj|solutionrelative:student result manager\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,28 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson One\\Project One\\Student Result Manager\\Student Result Manager\\Student.cs",
-              "RelativeDocumentMoniker": "Student Result Manager\\Student.cs",
-              "ToolTip": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson One\\Project One\\Student Result Manager\\Student Result Manager\\Student.cs",
-              "RelativeToolTip": "Student Result Manager\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Teacher.cs",
+              "RelativeDocumentMoniker": "Student Result Manager\\Teacher.cs",
+              "ToolTip": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Teacher.cs",
+              "RelativeToolTip": "Student Result Manager\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:32:14.654Z",
+              "WhenOpened": "2026-02-22T03:46:42.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson One\\Project One\\Student Result Manager\\Student Result Manager\\Program.cs",
-              "RelativeDocumentMoniker": "Student Result Manager\\Program.cs",
-              "ToolTip": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson One\\Project One\\Student Result Manager\\Student Result Manager\\Program.cs",
-              "RelativeToolTip": "Student Result Manager\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Student.cs",
+              "RelativeDocumentMoniker": "Student Result Manager\\Student.cs",
+              "ToolTip": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Student.cs",
+              "RelativeToolTip": "Student Result Manager\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T23:30:38.472Z",
+              "WhenOpened": "2026-02-22T03:21:50.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Person.cs",
+              "RelativeDocumentMoniker": "Student Result Manager\\Person.cs",
+              "ToolTip": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Person.cs",
+              "RelativeToolTip": "Student Result Manager\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T03:22:11.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Program.cs",
+              "RelativeDocumentMoniker": "Student Result Manager\\Program.cs",
+              "ToolTip": "C:\\Users\\food9\\Coding Projects\\New Coding Projects Tut\\Lesson Two\\Task One\\Student Result Manager\\Program.cs",
+              "RelativeToolTip": "Student Result Manager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T03:22:16.163Z",
               "EditorCaption": ""
             }
           ]
