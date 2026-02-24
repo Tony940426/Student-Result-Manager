@@ -10,7 +10,7 @@ namespace Student_Result_Manager
     {
         public List<int> Marks { get; set; } = new List<int>();
 
-        public Student(string name, int age, List<int> marks) : base(name)
+        public Student(string name, List<int> marks) : base(name)
         {
             foreach (var mark in marks)
             {

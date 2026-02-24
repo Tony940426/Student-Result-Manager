@@ -12,12 +12,15 @@ for (int i = 0; i < numberOfStudents; i++)
 
     //Ask a student name
     Console.Write("Name: ");
-    string name = Console.ReadLine();
+    string name = Console.ReadLine() ?? string.Empty;
+    while (string.IsNullOrEmpty(name))
+    {
+        Console.WriteLine("Name cannot be empty. Please enter a valid name.");
+        Console.Write("Name: ");
+        name = Console.ReadLine() ?? string.Empty;
+    }
 
     //Ask a student age
-    Console.Write("Age: ");
-    int age = int.Parse(Console.ReadLine());
-
     //Ask a student marks
     List<int> marks = new List<int>();
     Console.Write("How many marks does this student have? ");
@@ -38,7 +41,7 @@ for (int i = 0; i < numberOfStudents; i++)
             marks.Add(mark);
         }
     }
-    Student student = new Student(name, age, marks);
+    Student student = new Student(name, marks);
     Console.WriteLine($"New student created: ID = {student.Id},Name: {student.Name}, Marks: {string.Join(", ", student.Marks)}");
 }
 
@@ -50,8 +53,13 @@ for (int i = 0; i < numberOfTeachers; i++)
     Console.WriteLine($"Enter the details of teacher {i + 1}");
 
     //Ask a teacher name
-    Console.Write("Name: ");
-    string name = Console.ReadLine();
+    string name = Console.ReadLine() ?? string.Empty;
+    while (string.IsNullOrEmpty(name))
+    {
+        Console.WriteLine("Name cannot be empty. Please enter a valid name.");
+        Console.Write("Name: ");
+        name = Console.ReadLine() ?? string.Empty;
+    }
     Console.Write("Subject: ");
     string subject = Console.ReadLine();
 
