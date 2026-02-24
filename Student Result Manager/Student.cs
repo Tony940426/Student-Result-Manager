@@ -8,7 +8,6 @@ namespace Student_Result_Manager
 {
     public class Student : Person
     {
-        public int Age { get; set; }
         public List<int> Marks { get; set; } = new List<int>();
 
         public Student(string name, int age, List<int> marks) : base(name)
@@ -24,7 +23,6 @@ namespace Student_Result_Manager
                 this.Marks.Add(mark);
                 }
             }
-            this.Age = age;
         }
         private bool checkMarksAreValid(int mark)
         {
@@ -38,13 +36,12 @@ namespace Student_Result_Manager
             };
             
         }
-        public void GetStudentInfo()
+        public override void GetInfo()
         {
-            GetInfo();
-            Console.WriteLine($"Name {Name}, Age: {Age}, Grades: {string.Join(", ", Marks)} Average Grade: {CalculateAverage():F2}");
+            Console.WriteLine($"ID: {Id}, Name {Name}, Role: Student, Marks: {string.Join(", ", Marks)}");
         }
 
-        private double CalculateAverage()
+        public double CalculateAverage()
         {
             if (Marks.Count == 0) return 0;
             return Marks.Average();

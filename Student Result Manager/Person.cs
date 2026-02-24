@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Student_Result_Manager
 {
-    public class Person
+    public abstract class Person
     {
         private static int IdCounter = 1;
         private static List<Person> peoples = new List<Person>();
@@ -27,19 +27,39 @@ namespace Student_Result_Manager
             peoples.Add(this);
         }
 
-        public void GetInfo()
+        public abstract void GetInfo();
+        public static List<Person> GetPeoples()
         {
-            Console.WriteLine($"ID: {Id}, Name: {Name}");
+            return peoples;
         }
 
+        public static void GetTopStudent()
+        {
+            Student? topStudent = peoples
+                .OfType<Student>()
+                .OrderByDescending(s => s.CalculateAverage())
+                .FirstOrDefault();
+
+            if (topStudent != null)
+            {
+                Console.WriteLine($"Top Scoring Student: {topStudent.Name} ({topStudent.CalculateAverage():F2})");
+            } else
+            {
+                Console.WriteLine("No students found.");
+            }
+        }
         public static void ListPeople()
         {
+            List<Person> peoples = Person.GetPeoples();
+
             if (peoples.Count > 0) {
-                Console.WriteLine($"There are {peoples.Count}");
-                Console.WriteLine("List of People:");
+                Console.WriteLine($"Toal Persons Created: {peoples.Count}");
+                Console.WriteLine($"Total Students: {peoples.OfType<Student>().Count()}");
+                Console.WriteLine($"Total Teachers: {peoples.OfType<Teacher>().Count()}");
                 foreach (var p in peoples)
                 {
-                    Console.WriteLine($"ID: {p.Id}, Name: {p.Name}");
+                    p.GetInfo();
+                    p.GetType();
                 }
             } else
             {

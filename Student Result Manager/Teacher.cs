@@ -13,10 +13,10 @@ namespace Student_Result_Manager
         {
             this.Subject = subject;
         }
-        public void GetTeacherInfo()
+        public override void GetInfo()
         {
-            GetInfo();
-            Console.WriteLine($"Subject: {Subject}");
+            Console.WriteLine($"ID: {Id}, Name: {Name}, Role: Teacher, Subject: {Subject}");
         }
     }
+
 }
